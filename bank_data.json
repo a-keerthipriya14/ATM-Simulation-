@@ -1,0 +1,84 @@
+{
+  "bank": "Python National Bank",
+  "accounts": {
+    "4111222233334444": {
+      "holder_name": "Sai Deekshith",
+      "pin_hash": "dbff5341acad5e2a58db4efd5e72e2d9a0a843a28e02b1183c68162d0a3a3de6",
+      "balance": 26200.0,
+      "is_blocked": false,
+      "transactions": [
+        {
+          "txn_id": "TXN1008",
+          "type": "WITHDRAWAL",
+          "amount": 7800,
+          "balance_after": 42200.0,
+          "remarks": "ATM withdrawal",
+          "timestamp": "2026-10-12 19:45:59"
+        },
+        {
+          "txn_id": "TXN1009",
+          "type": "DEPOSIT",
+          "amount": 2000,
+          "balance_after": 44200.0,
+          "remarks": "Cash deposit",
+          "timestamp": "2026-10-12 19:45:59"
+        },
+        {
+          "txn_id": "TXN1010",
+          "type": "WITHDRAWAL",
+          "amount": 15000,
+          "balance_after": 29200.0,
+          "remarks": "ATM withdrawal",
+          "timestamp": "2026-10-12 19:46:04"
+        },
+        {
+          "txn_id": "TXN1011",
+          "type": "TRANSFER OUT",
+          "amount": 3000,
+          "balance_after": 26200.0,
+          "remarks": "To Keerthi priya",
+          "timestamp": "2026-10-12 19:46:07"
+        },
+        {
+          "txn_id": "TXN1013",
+          "type": "PIN CHANGE",
+          "amount": 0,
+          "balance_after": 26200.0,
+          "remarks": "PIN updated",
+          "timestamp": "2026-10-12 19:46:07"
+        }
+      ]
+    },
+    "4555666677778888": {
+      "holder_name": "Keerthi priya",
+      "pin_hash": "fe2592b42a727e977f055947385b709cc82b16b9a87f88c6abf3900d65d0cdc3",
+      "balance": 500.0,
+      "is_blocked": false,
+      "transactions": [
+        {
+          "txn_id": "TXN1012",
+          "type": "TRANSFER IN",
+          "amount": 3000,
+          "balance_after": 15000.0,
+          "remarks": "From Sai Deekshith",
+          "timestamp": "2026-10-12 19:46:07"
+        },
+        {
+          "txn_id": "TXN1014",
+          "type": "WITHDRAWAL",
+          "amount": 14500,
+          "balance_after": 500.0,
+          "remarks": "ATM withdrawal",
+          "timestamp": "2026-10-12 19:46:13"
+        }
+      ]
+    },
+    "4999000011112222": {
+      "holder_name": "Arjun Reddy",
+      "pin_hash": "0ffe1abd1a08215353c233d6e009613e95eec4253832a761af28ff37ac5a150c",
+      "balance": 3000.0,
+      "is_blocked": true,
+      "transactions": []
+    }
+  }
+}
